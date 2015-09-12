@@ -1,0 +1,58 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0.5em;
+}
+
+h4 {
+    margin-top: 0.5em;
+}
+
+div.spread {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+th {
+    font-weight: 500;
+    padding: 0.3em;
+}
+
+td > div.card {
+    font-weight: 700;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    height: 15em;
+    width: 9em;
+    text-align: left;
+    vertical-align: top;
+    border-radius: 0.5em;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    animation: turnover 5s;
+}
+
+@keyframes turnover {
+    0% {
+        background-color: black;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+div.headline {
+    text-align: center;
+}
