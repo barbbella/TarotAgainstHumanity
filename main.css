@@ -28,31 +28,55 @@ th {
     padding: 0.3em;
 }
 
-td > div.card {
+.card {
+    height: 17em;
+    width: 11em;
+}
+
+.card > div.back {
+    /*display: inline-block;*/
     font-weight: 700;
     font-size: 1em;
     background-color: white;
     color: black;
-    height: 15em;
-    width: 9em;
+    height: 15em !important;
+    width: 9em !important;
     text-align: left;
     vertical-align: top;
     border-radius: 0.5em;
     padding: 0.8em;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    animation: turnover 5s;
 }
 
-@keyframes turnover {
-    0% {
-        background-color: black;
-    }
-    100% {
-        background-color: white;
-    }
+.card > div.front {
+    /*display: inline-block;*/
+    font-weight: 700;
+    font-size: 1em;
+    background-color: white;
+    border-color: white;
+    height: 15em !important;
+    width: 9em !important;
+    text-align: left;
+    vertical-align: top;
+    border-radius: 0.5em;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
 }
 
 div.headline {
     text-align: center;
+}
+
+.flip-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-label {
+    width: 11em;
+    text-align: center;
+    padding-bottom: 1em;
 }

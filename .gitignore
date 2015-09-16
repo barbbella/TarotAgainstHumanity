@@ -1,1 +1,7 @@
+# Webstorm
 .idea/
+
+# Divshot
+divshot.json
+.divshot-cache
+error.html
